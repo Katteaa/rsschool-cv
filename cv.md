@@ -18,6 +18,8 @@ I’m currently study in Brest State Technical University.I am in my second year
 * Java Script (Basics)
 * Git, GitHub
 * VS Code
+
+
 ---
 ## Code example:
 ```
