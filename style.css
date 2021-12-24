@@ -5,20 +5,20 @@ body{
 .header-container{
     background-color: #202026;
     width: 1440px;
-    height: 1000px;
+    height: 400px;
     margin: 0 auto;
     display: flex;
 }
 .logo{
     background: url(assets/jpg/IQsH6CrrSDs.jpg);
     width: 25%;
-    height: 40%;
+    height: 400px;
     background-size: cover;
     display: flex;
 }
 .name{
     background-color: #fecb00;
-    height: 20%;
+    height: 200px;
     width: 75%;
     display: flex;
     padding-right: 20px;
@@ -41,4 +41,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+}
+.left-info{
+    background-color: burlywood;
 }
