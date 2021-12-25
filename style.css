@@ -45,21 +45,24 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     text-transform: uppercase;
     margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    color: white;
 
 }
 .contacts{
     margin-top: 20px;
 }
 .main-container{
-    background-color: #202026;
+    background-color: white;
     width: 1440px;
-    height: 700px;
+    height: 1500px;
     margin-left: 240px;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
 }
 .left-info{
-    background-color: #fecb00;
+    background-color: #202026;
     width: 25%;
     color:#202026;
 }
@@ -69,14 +72,80 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     text-align: -webkit-match-parent;
     line-height: 2;
+    color: #fecb00;
     
 }
 .line{
-    background-color: #202026;
+    background-color: #fecb00;
     height: 4px;
     width: 280px;
     margin-bottom: 20px;
 }
 div {
     display: block;
+}
+
+.text-main{
+    text-align: right;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+}
+ .skills{
+    margin-top: 200px;
+}
+.languages{
+    margin-top: 200px;
+}
+.main-info{
+    width: 70%;
+}
+.text{
+    font-size: 30px;
+    margin-left: 0px;
+    text-align: justify;
+}
+.about{
+    margin-left: 70px;
+    margin-right: 0px;
+}
+.line-main{
+    background-color: #202026;
+    height: 4px;
+    margin-bottom: 20px;
+}
+.code{
+    margin-left: 70px;
+    margin-right: 0px;
+}
+.code-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.footer-container{
+    background-color: #fecb00;
+    justify-content: space-between;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    
+
+}
+.image-footer{
+    display:flex;
+    align-items: center;
+}
+.github{
+    margin-left: 20px;
+}
+.text-footer{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
 }

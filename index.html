@@ -23,19 +23,19 @@
                 <div class="line"></div>
                 <ul class="contacts-list">
                     <li class="phone">
-                        <img src="assets/png/icons8-телефон-50.png" alt="phone" width="25px" height="25px">
+                        <img src="assets/png/icons8-телефон-50.png" alt="phone" width="25" height="25">
                             +375333799735
                     </li>
                     <li>
-                        <img src="assets/png/icons8-группа-сообщений-50.png" alt="mail" width="25px" height="25px">
+                        <img src="assets/png/icons8-группа-сообщений-50.png" alt="mail" width="25" height="25">
                         katya.potapchuk.2003@mail.ru
                     </li>
                     <li>
-                        <img src="assets/png/icons8-discord-32.png" alt="discord" width="25px" height="25px">
+                        <img src="assets/png/icons8-discord-32.png" alt="discord" width="25" height="25">
                         Kattea
                     </li>
                     <li>
-                        <img src="assets/png/icons8-маркер-32.png" alt="location" width="25px" height="25px">
+                        <img src="assets/png/icons8-маркер-32.png" alt="location" width="25" height="25">
                         Brest, Belarus</li>
                 </ul>
             </div>
@@ -61,11 +61,56 @@
 
             </div>
         </section>
-        <section class="main-info"></section>
+        <section class="main-info">
+            <div class="about">
+                <h2 class="text-main">About me</h2>
+                <div class="line-main"></div>
+                <p class="text">
+                    I’m currently study in Brest State Technical University.
+                    I am in my second year. My major is Artificial Intelligence.
+                    My goal is to learn something new. 
+                    I like digital painting and codding.
+                    My core strengths are good logics, responsibility and patience.
+                    I want to get knowledge and skills that will be enough for good Front-end Developer.
+                </p>
+            </div>
+            <div class="code">
+                <h2 class="text-main">Code  Example</h2>
+                <div class="line-main"></div>
+                <pre>
+                    <code class="code-text">
+                        const insertionSort = arr =&gt; {
+                            for (let i = 1, l = arr.length; i &lt; l; i++) {
+                                const current = arr[i];
+                                let j = i;
+                                while (j &gt; 0 &amp;&amp; arr[j - 1] &gt; current) {
+                                    arr[j] = arr[j - 1];
+                                    j--;
+                                }
+                                arr[j] = current;
+                            }
+                            return arr;
+                        };
+                    </code>
+                </pre>
+            </div>
+        </section>
     </div>
     </main>
     <footer>
-
+        <div class="footer-container">
+            <div class="image-footer">
+                <a href="https://github.com/Katteaa">
+                <img class="github" src="assets/png/2048px-Octicons-mark-github.svg.png" alt="GitHub" width="80" height="80">
+                </a>
+            </div>
+            <p class="text-footer">2021</p>
+                 <div class="image-footer">
+                    <a href="https://rs.school/js/">
+                        <img src="assets/svg/rs_school_js.svg" alt="rs_school_js" width="200" height="80">
+                    </a>
+                </div>
+        </div>
     </footer>
 </body>
 </html>
